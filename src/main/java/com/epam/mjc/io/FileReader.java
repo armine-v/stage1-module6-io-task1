@@ -15,8 +15,6 @@ public class FileReader {
             while ((c = fis.read()) != -1){
                 file_content += (char)c;
             }
-            System.out.print(file_content);
-            System.out.print("UWAAAAAAAAAAA");
             String[] file_content_split = file_content.split("\n");
             /*
             NOTE: Doesn't work with String[] file_content_split = file_content.split(" ");
